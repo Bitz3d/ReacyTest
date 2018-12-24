@@ -3,7 +3,7 @@ import Checkbox from './Checkbox'
 
 function App2() {
     return(
-        <div>
+        <div className="todo-lsit">
             <Checkbox/>
         </div>
     )
