@@ -1,12 +1,11 @@
 import React from "react"
 
-function ToDo() {
+function ToDo(props) {
    return(
        <div className="todo-item">
-            <input type="checkbox" /> 
-            <p >Place holder text</p>
+            <input type="checkbox" checked={props.items.completed}/> 
+            <p>{props.items.text}</p>
        </div>
-    
    )  
 }
 
