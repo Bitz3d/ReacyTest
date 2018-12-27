@@ -11,15 +11,20 @@ import App3 from "./Components/App3"
 import ClassApp from "./Components/ClassApp"
 import ClassApp2 from "./Components/ClassApp2"
 import StateApp2 from "./Components/StateApp2"
+import EventApp from './Components/EventApp'
+import ChangingState from "./Components/ChangingState";
 
 
+
+//ReactDOM.render(<ChangingState />,document.getElementById('root'));
+ReactDOM.render(<App2 />,document.getElementById('root'));
+//ReactDOM.render(<EventApp />,document.getElementById('root'));
 //ReactDOM.render(<StateApp2 />,document.getElementById('root'));
 //ReactDOM.render(<StateApp />,document.getElementById('root'));
 //ReactDOM.render(<ClassApp2 />,document.getElementById('root'));
 //ReactDOM.render(<ClassApp />,document.getElementById('root'));
 //ReactDOM.render(<App3 />,document.getElementById('root'));
 //ReactDOM.render(<JokeApp />,document.getElementById('root'));
-//ReactDOM.render(<App2 />,document.getElementById('root'));
 //ReactDOM.render(<MyInfo/>,document.getElementById('root'));
 //ReactDOM.render(<App/>,document.getElementById('root'));
 //ReactDOM.render(<WhichHour/>,document.getElementById('root'));

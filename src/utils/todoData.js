@@ -12,7 +12,7 @@ const todoData=[
     {
         id:3,
         text: "Lekcje",
-        completed: true
+        completed: false
     },
     {
         id:4,
