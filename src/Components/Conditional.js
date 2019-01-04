@@ -3,10 +3,6 @@ import React from 'react'
 
 
 class Conditional extends React.Component{
-    constructor(){
-        super()
-
-    }
 
     render(props){
         
